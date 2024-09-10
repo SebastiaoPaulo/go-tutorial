@@ -1,3 +1,6 @@
+<p align="center">
+  <a href="https://go.dev/" target="blank"><img src="https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Aqua.png" width="200" alt="GoLang Logo" /></a>
+</p>
 # Go Payment Integration API
 
 Este projeto é uma API simples criada em Go como parte do meu aprendizado da linguagem. O objetivo é integrar a API da Stripe para gerenciar pagamentos e explorar conceitos como manipulação de rotas, decodificação de JSON e integração com serviços externos. Além disso, utilizei Docker e Docker Compose para facilitar a execução e distribuição da aplicação.
@@ -24,13 +27,13 @@ Este projeto é uma API simples criada em Go como parte do meu aprendizado da li
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/usuario/seu-projeto.git
+git clone https://github.com/SebastiaoPaulo/go-tutorial.git
 ```
 
 2. Entre no diretório do projeto:
 
 ```bash
-cd seu-projeto
+cd go-tutorial
 ```
 
 3. Execute o comando para rodar a aplicação usando Docker Compose:
@@ -99,3 +102,7 @@ Processa um pagamento com Stripe. Requer um JSON no corpo da requisição com o 
 - Adicionar autenticação.
 - Implementar testes.
 - Gerenciamento de produtos com um banco de dados.
+
+## Contactos
+
+- Autor - [Sebastião Paulo](https://www.linkedin.com/in/sebasti%C3%A3o-paulo-31b4a5129/)
