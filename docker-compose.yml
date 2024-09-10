@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .  # Path to the Dockerfile directory
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app  # Mounting the directory to development
+    ports:
+      - "3333:3333"
