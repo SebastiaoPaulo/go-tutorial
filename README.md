@@ -1,6 +1,7 @@
 <p align="center">
   <a href="https://go.dev/" target="blank"><img src="https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Aqua.png" width="200" alt="GoLang Logo" /></a>
 </p>
+
 # Go Payment Integration API
 
 Este projeto é uma API simples criada em Go como parte do meu aprendizado da linguagem. O objetivo é integrar a API da Stripe para gerenciar pagamentos e explorar conceitos como manipulação de rotas, decodificação de JSON e integração com serviços externos. Além disso, utilizei Docker e Docker Compose para facilitar a execução e distribuição da aplicação.
