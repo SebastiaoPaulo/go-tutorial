@@ -14,16 +14,20 @@ import (
 
 func main() {
 
+	// Defining the STRIPE_API_KEY
 	stripe.Key = "sk_test_51PvwFn09vYM5hXNFkquFiGphB3gsiP4fXJviUvPYWMnNhaVRpv69HcUhmfqZkQ1mIakRxPuoKTedi4YkflnLT8Zh00rKAxQo6o"
+
+	// Routes for the API requests
 	http.HandleFunc("/hello-world", handleHelloWorld)
 	http.HandleFunc("/payment", handlePayment)
 
 	log.Println("Server is running at localhost:3333...")
+
+	// Server Initialization
 	err := http.ListenAndServe(":3333", nil)
 	if err != nil {
 		log.Fatal(err)
 	}
-
 }
 
 func handleHelloWorld(writer http.ResponseWriter, request *http.Request) {
@@ -44,6 +48,7 @@ func handleHelloWorld(writer http.ResponseWriter, request *http.Request) {
 
 func handlePayment(writer http.ResponseWriter, request *http.Request) {
 
+	// Verifying the request method
 	if request.Method != "POST" {
 		http.Error(writer, http.StatusText(http.StatusMethodNotAllowed), http.StatusMethodNotAllowed)
 		return
