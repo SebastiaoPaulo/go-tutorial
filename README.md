@@ -84,6 +84,8 @@ Processa um pagamento com Stripe. Requer um JSON no corpo da requisição com o 
 ```bash
 ├── Dockerfile
 ├── docker-compose.yml
+├── go.mod
+├── go.sum
 ├── server.go
 ├── README.md
 ```
